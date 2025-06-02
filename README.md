@@ -81,31 +81,16 @@ pip install matplotlib numpy
 
 ---
 ## 📁 Como Executar na sua máquina! 
-Primeiro passo é criar uma nova pasta em seu caminho de preferência! 
+1. Clone o repositório:
 
 ```bash
-cd C:/
-mkdir projeto_a3_IA
-cd projeto_a3_IA
+git clone https://github.com/JoaoGobbi/IA-Simbolica-Robo-e-Labirinto.git
+cd IA-Simbolica-Robo-e-Labirinto
 ```
-
-Após criar uma pasta chamada *projeto_a3_IA* dentro da sua máquina você pode fazer o processo de clone do repositório que está no Github.
-
-```bash
-git clone https://github.com/Japu431/A3-Inteligencia_Artificial
-cd A3-Inteligencia_Artificial
-```
-Agora é só abrir na sua IDE de preferência para executar o nosso script.
-(Caso você utilize o Visual Studio Code, você pode executar o próximo script bash abaixo)
+2. Execute:
 
 ```bash
-code.
-```
-
-Para executar o nosso arquivo Python, vá no terminal e execute:
-
-```bash
-modelo_IA.py
+python modelo_IA.py
 ```
 
 Caso esteja utilizando um notebook para executar, é apenas abrir o arquivo e executar as células
